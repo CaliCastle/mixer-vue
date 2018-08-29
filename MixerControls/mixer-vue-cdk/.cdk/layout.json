@@ -11,16 +11,15 @@
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "Control Schema",
-                "type": "component",
-                "width": 0.25
+                "type": "component"
               }
             ],
-            "id": "__glMaximised",
+            "header": {},
             "isClosable": true,
             "reorderEnabled": true,
             "title": "",
             "type": "stack",
-            "width": 30.55370246831221
+            "width": 23.342002600780233
           },
           {
             "activeItemIndex": 0,
@@ -34,14 +33,15 @@
                 "width": 0.75
               }
             ],
+            "height": 54.82321323591166,
             "isClosable": true,
             "reorderEnabled": true,
             "title": "",
             "type": "stack",
-            "width": 69.44629753168779
+            "width": 76.65799739921977
           }
         ],
-        "height": 60.74829931972789,
+        "height": 54.82321323591166,
         "isClosable": true,
         "reorderEnabled": true,
         "title": "",
@@ -59,7 +59,7 @@
           }
         ],
         "header": {},
-        "height": 39.25170068027211,
+        "height": 45.17678676408835,
         "isClosable": true,
         "reorderEnabled": true,
         "title": "",

@@ -10,9 +10,9 @@ window.addEventListener('load', function initMixer() {
 
   // Whenever someone clicks on "Hello World", we'll send an event
   // to the game client on the control ID "hello-world"
-  document.getElementById('hello-world').onclick = function(event) {
+  document.getElementById('hello-world').onclick = function (event) {
     mixer.socket.call('giveInput', {
-      controlID: 'hello-world',
+      controlID: 'hello',
       event: 'click',
       button: event.button,
     });
