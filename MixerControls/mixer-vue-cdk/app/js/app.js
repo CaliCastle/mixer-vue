@@ -1,12 +1,16 @@
 import Vue from "vue";
 
+// Import components
+import Instructions from "./components/Instructions";
+
+// Bind Vue instance
 const app = new Vue({
-  el: '#app',
+  components: { Instructions },
   data: {
-    message: 'Mixer + Vue!',
+    message: "Mixer + Vue"
   },
   watch: {
-    message: function (newValue, oldValue) {
+    message: function(newValue, oldValue) {
       mixer.socket.call("giveInput", {
         event: "click",
         text: newValue,
@@ -27,3 +31,6 @@ const app = new Vue({
     mixer.isLoaded();
   }
 });
+
+// Mount it to DOM
+app.$mount("#app");
