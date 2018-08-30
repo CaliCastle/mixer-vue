@@ -6,7 +6,7 @@
         {
           "controls": [
             {
-              "controlID": "GiveHealth",
+              "controlID": "new-control",
               "kind": "button",
               "position": [
                 {
@@ -18,13 +18,18 @@
                 }
               ],
               "text": "Hey"
+            },
+            {
+              "controlID": "new-text",
+              "kind": "textbox",
+              "position": []
             }
           ],
           "sceneID": "default"
         }
       ]
     },
-    "savedAt": 1535534097501
+    "savedAt": 1535606636943
   },
   {
     "name": "Save from 29/08 00:50",
