@@ -1,5 +1,6 @@
 <template>
     <div class="w-screen h-screen">
+        <div class="absolute pin bg-black opacity-75"></div>
         <div class="flex flex-col justify-center w-full h-full" v-if="showInstructions">
             <div class="mx-auto relative" instructions-menu>
                 <main class="h-auto bg-black">
