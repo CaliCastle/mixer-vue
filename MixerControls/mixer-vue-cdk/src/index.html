@@ -1,30 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mixer + Vue Awesome Integration</title>
     <script src="https://mixercc.azureedge.net/lib/std-v0.2.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/utils.css">
+    <link rel="stylesheet" href="./css/app.css">
 </head>
+<body class="font-sans">
 
-<body>
+<div id="app" class="">
 
-<div id="app" class="w-full">
-    <div class="flex flex-col justify-center items-center h-32">
-        <input type="text" v-model="message"
-               class="appearance-none min-w-64 px-3 py-2 rounded-lg mt-8 text-black border-4 border-transparent focus:border-blue hover:bg-grey-lighter outline-none focus:outline-none">
-
-        <button @click.prevent="clickButton"
-                class="appearance-none text-white mt-4 border-2 py-2 px-3 rounded-lg hover:bg-white hover:text-black">
-            {{ message }}
-        </button>
-    </div>
 </div>
 
-<script src="./vue.js"></script>
-<script src="./scripts.js"></script>
-</body>
+<script src="./js/app.js"></script>
 
+</body>
 </html>
