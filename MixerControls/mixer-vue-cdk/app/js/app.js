@@ -28,7 +28,7 @@ const app = new Vue({
     }
   },
   mounted() {
-    mixer.isLoaded();
+    window.mixer.isLoaded();
   }
 });
 

@@ -56,10 +56,22 @@
       join() {
         this.showInstructions = false;
         this.message = "Perfect! Let's Join!";
+
+        window.mixer.socket.call("giveInput", {
+          controlID: "new-control",
+          event: "inputdown",
+          value: "join-default"
+        });
       },
       watch() {
         this.showInstructions = false;
         this.message = "Fine, Keep Watching!";
+
+        window.mixer.socket.call("giveInput", {
+          controlID: "random-control",
+          event: "inputdown",
+          value: "join-default"
+        });
       },
       toggleInstructions() {
         this.showInstructions = !this.showInstructions;
